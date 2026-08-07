@@ -3,7 +3,7 @@ name = "counter"
 version = "0.1.0"
 description = "Simple Kivy Counter"
 readme = "README.md"
-requires-python = ">=3.12,<3.13"
+requires-python = ">=3.13"
 
 dependencies = [
     "kivy>=2.3.1",
@@ -43,3 +43,12 @@ ndk_api = 24
 
 global_tools = true
 byte_compile_python = true
+
+[tool.uv.pip]
+extra-index-url = [
+    "https://pypi-index.psychowaspx.workers.dev/simple",
+    "https://pypi.anaconda.org/kivyschool/simple"
+]
+
+[tool.uv]
+index-strategy = "unsafe-best-match"
