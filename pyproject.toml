@@ -22,7 +22,7 @@ dev = [
 ]
 
 [tool.uv.sources]
-ksproject = { git = "https://github.com/kivy-school/ksproject", rev = "master" }
+ksproject = { git = "https://github.com/kivy-school/ksproject", rev = "windows-support" }
 
 [tool.kivy-school]
 app_name = "Counter"
