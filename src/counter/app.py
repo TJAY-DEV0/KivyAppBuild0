@@ -4,7 +4,7 @@ from kivy.uix.button import Button
 from kivy.uix.boxlayout import BoxLayout
 from kivy.clock import Clock
 
-class counter(App):
+class Counter(App):
     def build(self):
         
         layout  = BoxLayout(orientation="vertical")
