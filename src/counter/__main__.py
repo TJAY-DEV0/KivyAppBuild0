@@ -1,2 +1,6 @@
+from .app import counter
 def main():
-    CounterApp().run()
+    counter().run()
+
+if __name__ == "__main__":
+    main()
