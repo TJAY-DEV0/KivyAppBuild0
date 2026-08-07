@@ -38,5 +38,3 @@ class counter(App):
         else:
             self.btn_reset.disabled = False
         
-if __name__ == "__main__":
-    counter().run()
