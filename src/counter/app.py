@@ -37,4 +37,7 @@ class Counter(App):
             self.btn_reset.disabled = True
         else:
             self.btn_reset.disabled = False
-        
+
+def main(*args) -> None:
+    app = Counter()
+    app.run()
