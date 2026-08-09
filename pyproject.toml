@@ -10,7 +10,7 @@ dependencies = [
 ]
 
 [project.scripts]
-counter = "counter.__main__:main"
+counter = "counter:main"
 
 [build-system]
 requires = ["uv_build>=0.11.14,<0.12.0"]
